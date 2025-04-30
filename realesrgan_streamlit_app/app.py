@@ -90,7 +90,7 @@ if input_path_for_processing:
     # Use absolute path for the selected input (example or uploaded temp file)
     cmd_input_path = os.path.abspath(input_path_for_processing)
     cmd_output_path = os.path.abspath(output_path)
-    executable_path = os.path.join(parent_dir, "realesrgan-ncnn-vulkan.exe")
+    executable_path = os.path.join(parent_dir, "realesrgan-ncnn-vulkan")
 
     command = [
         executable_path,
